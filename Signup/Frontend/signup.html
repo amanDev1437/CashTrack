@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Track</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form monsubmit="signup(event)">
+        <label for="name">First Name</label>
+        <input type="text" name="name" id="name" placeholder="your first name">
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname" placeholder="your last name">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="your email">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <button id="submit">Sign Up</button>
+    </form>
+    <a href="../Login/login.html">Existing User - Login</a>
+
+    <script src="./signup.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
